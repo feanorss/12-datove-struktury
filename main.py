@@ -44,19 +44,31 @@
 #
 #
 #
+#
+# stack = []
+# stack.append("Patrik")
+# stack.append("Milan")
+# stack.append("Lukas")
+# print(stack)
+# stack.pop()
+# print(stack)
+#
+# queue = []
+# queue.append("Patrik")
+# queue.append("Milan")
+# queue.append("Lukas")
+# print(queue)
+# queue.pop(0)
+# print(queue)
 
-stack = []
-stack.append("Patrik")
-stack.append("Milan")
-stack.append("Lukas")
-print(stack)
-stack.pop()
-print(stack)
+class Convert:
+    @staticmethod
+    def toimperial(m,y):
+        return m*y
 
-queue = []
-queue.append("Patrik")
-queue.append("Milan")
-queue.append("Lukas")
-print(queue)
-queue.pop(0)
-print(queue)
+    def tometric(m,y):
+        return m/y
+
+
+print(Convert.toimperial(1,1.0936))
+print(Convert.tometric(1,1.0936))
